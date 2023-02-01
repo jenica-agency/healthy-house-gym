@@ -5,11 +5,11 @@ document.getElementById("subform").addEventListener("submit", (e) => {
     NEWSLETTER</h2><strong>Mail: ${username}  <br> Ask about our news</strong><br></html>`;
   Email.send({
     Host: "smtp.elasticemail.com",
-    Username: "mohiefineartcompany@gmail.com",
-    Password: "1D5B9B8351314E69BDCD92389599CAB54073",
-    To: "hagarhassan813@gmail.com",
-    From: "mohiefineartcompany@gmail.com",
-    Subject: "MohieFineArtco",
+    Username: "jenicaagency@gmail.com",
+    Password: "ABC1A38323D05C388B9481FF4AA17CD8C333",
+    To: "mohamedbdelrahman2@gmail.com",
+    From: "jenicaagency@gmail.com",
+    Subject: "Healthy House Gym",
     Body: body,
   });
   document.getElementById("submail").value = "";
