@@ -44,6 +44,9 @@ body {
 
 .custom-a-nav {
     color: inherit;
+    cursor: pointer;
+    ;
+    text-decoration: none;
 
 }
 
@@ -144,6 +147,7 @@ body {
 /* ******************* classes start ***********************/
 .cat-content {
     color: var(--darkcolor);
+    font-size: large;
 }
 
 .cat-img {
@@ -202,6 +206,11 @@ body {
     top: 50px;
     right: 10px;
     z-index: -1;
+}
+
+.about-points {
+    margin-top: 20px;
+    font-size: larger;
 }
 
 /* ******************************************/
