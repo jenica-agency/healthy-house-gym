@@ -7,7 +7,7 @@ document.getElementById("subform").addEventListener("submit", (e) => {
     Host: "smtp.elasticemail.com",
     Username: "jenicaagency@gmail.com",
     Password: "ABC1A38323D05C388B9481FF4AA17CD8C333",
-    To: "mohamedbdelrahman2@gmail.com",
+    To: "healthyhousegymegy@gmail.com",
     From: "jenicaagency@gmail.com",
     Subject: "Healthy House Gym",
     Body: body,
