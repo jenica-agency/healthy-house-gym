@@ -623,6 +623,10 @@ footer {
     .icon-left-on-img {
         font-size: 35px;
     }
+
+    .sec-cover {
+        margin-top: 15%;
+    }
 }
 
 @media only screen and (max-width : 991px) and (min-width : 768px) {
@@ -705,14 +709,29 @@ footer {
 
 @media screen and (max-width:992px) and (min-width:300px) {
 
-    .custom-phone-icon-nav,
-    .custom-a-nav-phone {
+    .center-gmail {
         display: none;
     }
 
-    .leave-map {
-        display: none;
-    }
 
 
 }
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--lightcolor);
+}
+
+.modal-body img {
+    width: 80%;
+}
+
+.btn-close {
+    background-color: var(--maincolor);
+}
+
+.modal-header {
+    border-color: var(--maincolor);
+    color: var(--maincolor);
+}
+
