@@ -15,7 +15,7 @@ html {
 
 @font-face {
     font-family: vanguard;
-    src: url(/assest/fonts/VANGUARD.ttf);
+    src: url(../fonts/VANGUARD.ttf);
 }
 
 body {
